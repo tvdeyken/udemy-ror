@@ -1,2 +1,18 @@
+$navbar: #08088A;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em ;
+  color:#111;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #222;
+  text-decoration: none;
+}
