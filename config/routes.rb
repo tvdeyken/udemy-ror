@@ -5,5 +5,8 @@ root 'welcome#home'
 get 'about', to: 'welcome#about'
 
 resources :articles # added
-resources :users
+
+get 'signup', to: 'users#new'
+resources :users, except: [:new] 
+
 end
